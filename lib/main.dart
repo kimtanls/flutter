@@ -47,7 +47,7 @@ class LogInUI extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.only(bottom: 30),
                 child: Text(
-                  'Hello \nWelcom Back',
+                  'Hello \nWelcom Back\ntan dep trai',
                   style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
