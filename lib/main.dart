@@ -101,7 +101,7 @@ class LogInUI extends StatelessWidget {
               Container(
                 height: 130,
                 width: double.infinity,
-                child: Row(
+                child: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Text(
@@ -130,7 +130,7 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Man hinh 2'),
+        title: const Text('Man hinh 2'),
       ),
       body: Center(
         child: Column(
